@@ -20,3 +20,6 @@ string BarnesNoble::get_name() {
 int BarnesNoble::get_numSoldBooks() {
     return numSoldBooks;
 }
+float BarnesNoble::get_onlineTax() {
+    
+}
