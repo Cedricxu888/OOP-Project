@@ -14,6 +14,7 @@ class BarnesNoble : public BookStore {
         int get_numSoldBooks(); // returns the books sold
         void set_name(string Name);
         string get_name();
+        float get_onlineTax();
     protected:
         int numSoldBooks;   // attribute for numSoldBooks, initialised to 0
         string name;
