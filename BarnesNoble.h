@@ -1,9 +1,9 @@
 #ifndef BARNESNOBLE_H
 #define BARNESNOBLE_H
 
-#include "BookStore.h"
+#include "Dymocks.h"
 
-class BarnesNoble : public BookStore {
+class BarnesNoble : public Dymocks {
 
     public:
         BarnesNoble();          // inherit from base class default constructor    
